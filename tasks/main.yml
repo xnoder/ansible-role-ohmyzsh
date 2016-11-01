@@ -1,0 +1,11 @@
+---
+# tasks file for ohmyzsh
+- name: set up oh-my-zsh
+  shell: sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+
+- name: copy oh-my-zsh config
+  template:
+    src: templates/zshrc.j2
+    dest: ~/.zshrc
+    owner: "{{ do_admin_user }}"
+    group: "{{ do_admin_user }}"

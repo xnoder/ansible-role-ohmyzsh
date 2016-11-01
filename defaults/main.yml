@@ -1,0 +1,4 @@
+---
+# defaults file for ohmyzsh
+username: "{{ lookup('env','USER')}}"
+zsh_theme: agnoster
