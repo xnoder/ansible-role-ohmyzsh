@@ -1,6 +1,8 @@
 Oh-My-ZSH
 =========
 
+[![Build Status](https://travis-ci.org/xnoder/ansible-role-ohmyzsh.svg?branch=master)](https://travis-ci.org/xnoder/ansible-role-ohmyzsh)
+
 Roll Oh-My-ZSH onto your laptop or server. A very simple role, but provides the necessary configuration for something that I love to use. By default, I use the
 [Agnoster](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes#agnoster) theme in `defaults/main.yml`, which may require some fonts to be patched. You can find
 a list of included themes [here](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes).
